@@ -1,0 +1,428 @@
+/*  Rahuls Style sheet **/
+
+/* Footer section start */
+.newsletter_row p {
+    font-size: 16px;
+}
+.newsletter_row h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.newsletter_row {
+    background: #EC5A23;
+    color: #fff;
+    padding: 50px;
+}
+div#mc_embed_signup {
+    width: 100%;
+}
+input#mce-EMAIL {
+    width: 75%;
+    padding: 22px 20px;
+    font-size: 12px;
+    display: inline-block;
+}
+#mc_embed_signup div.mce_inline_error {
+    margin: 0 0 1em 0;
+    padding: 5px 10px;
+    background-color: #fff !important;
+    font-weight: normal !important;
+    z-index: 1;
+    color: red !important;
+}
+div#mce-success-response {
+    margin: 0 0 1em 0;
+    padding: 5px 10px;
+    background-color: #fff !important;
+    font-weight: normal !important;
+    z-index: 1;
+    color: green !important;
+}
+input#mc-embedded-subscribe {
+    text-transform: uppercase;
+    background: #14161D !important;
+    border-color: #14161D !important;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 11px 13px;
+    width: 22%;
+    display: inline-block;
+    vertical-align: baseline;
+}
+form.form-inline.newsletter_form {
+    padding-top: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.footer_row, .social_row {
+    background: #14161D;
+    color: #fff;
+    border-bottom: 1px solid #707070;
+}
+.footer_col {
+    padding: 50px;
+}
+.footer_row .col-md-3:not(:last-child) {
+    border-right: 1px solid #707070;
+}
+.footer_col h4, .social_row h4 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+}
+.footer_col p, .footer_col a {
+    color: #A8A8A8;
+    font-size: 14px;
+}
+.reach-us-footer {
+    margin-bottom: 50px;
+}
+.footer_row ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer_row ul li a {
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.reach-us-footer em, .reach-us-footer a, .locations p {
+    line-height: 22px;
+}
+.locations {
+    margin-bottom: 25px;
+}
+.footer_col li {
+    list-style-type: none;
+}
+.footer_col:first-child .textwidget {
+    margin-bottom: 50px;
+}
+.firstcol {
+    padding-left: 0;
+}
+.lastcol {
+    padding-right: 0;
+}
+.social_row {
+    padding: 34px 0px;
+}
+
+span.connect {
+    line-height: 22px;
+    font-weight: bold;
+}
+span.sociall_icons i {
+    font-size: 25px;
+    margin-right: 22px;
+    color: #EC5A23;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.copyright_row {
+    color: #A8A8A8;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 30px 43px 20px;
+    background: #14161D;
+}
+.copyright_row p {
+    font-size: 15px;
+}
+.footer_col a:hover {
+    color: #ec5a23;
+}
+.menu-bottom-menu-container a:hover {
+    color: #ec5a23;
+}
+.footer_col h4 .fa{
+    margin-left: 15px;
+}
+/* Changed bottom menu css start */
+.btm_menu ul li a {
+    color: #A8A8A8;
+    padding: 0
+}
+.btm_menu ul li:not(:last-child) a {
+    padding-right: 30px;
+}
+.btm_menu ul {
+    list-style-type: none;
+    padding-left: 0;
+    float: right;
+}
+.btm_menu ul li {
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+}
+/* Changed bottom menu css end */
+/* Footer section end */
+
+/* Case studies start */
+.case_studies {
+    padding: 5px 0 0;
+}
+.case_studies h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 22px;
+}
+.case_studies .card-title {
+    font-size: 18px;
+}
+.case_studies .card-text p{
+    /* font-size: 24px; */
+    line-height: 35px;
+    text-align: initial;
+    font-weight: 300;
+}
+.case_studies .card-link {
+    font-size: 18px;
+    line-height: 54px;
+    color: #EC5A23;
+}
+#case_study .card-img-top {
+    border-radius: 0px !important;
+}
+#case_study .card {
+    border-radius: 0px !important;
+    border: none;
+    background: transparent;
+    text-align: left;
+}
+/* Case studies end */
+
+/* Testimonial start */
+h3.testimonial-heading {
+    font-size: 30px;
+    line-height: 39px;
+}
+p.testimonial-subheading {
+    margin-bottom: 0;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+section#testimonial {
+    padding: 50px 0;
+}
+.testimonial-author-info {
+    margin-top: 35px;
+}
+.author-name {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #d66136;
+}
+.author-company {
+    color: #14161D;
+    line-height: 22px;
+}
+#testimonial .carousel-indicators .active {
+    background: #14161D;
+}
+#testimonial .carousel-indicators li {
+    background: #EC5A23;
+    opacity: 1;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 10px;
+}
+#testimonial .carousel-indicators {
+    left: 20%;
+}
+#testimonial .slider_row {
+    border: 1px solid #707070;
+    margin: 40px 5px;
+    padding: 40px;
+}
+.testimonial-text p {
+    /* font-size: 16px; */
+}
+/* Testimonial end */
+
+/* Nectrac page */
+.p-l-20 {
+    padding-left: 20px;
+}
+/* ndatu page */
+.ndatu_icons img {
+    width: 100px;
+}
+.bullet-text li {
+    font-weight: 300;
+    line-height: 29px;
+    font-size: 18px;
+    text-align: justify;
+}
+/* Software dev page */
+#software-logoslider .imgouter_sepc, #ai-logoslider .imgouter_sepc {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #988b8b;
+    margin: 0 auto;
+    background: #ffff;
+    padding: 13%;
+    display: block;
+}
+#software-logosliders .carousel-control-prev {
+    left: 20px;
+}
+#software-logosliders .carousel-control-next {
+    right: 20px;
+}
+.font-wght-600 {
+    font-weight: 600
+}
+.contact-company-title {
+    font-weight: 500;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.font-wght-400 {
+    font-weight: 400;
+}
+.testi2_img_box .author-name {
+    font-size: 30px;
+    line-height: 35px;
+    color: #212529;
+    margin-bottom: 15px;
+}
+.row.slider_row.testipage .testimonial-text {
+    padding-top: 23px;
+    padding-left: 43px;
+    font-size: 18px;
+}
+.career_icons img {
+    width: 100px;
+}
+/* Cookie policy page */
+.cookie_contents h3 {
+    margin: 50px 0 20px;
+    color: #EC5A23;
+}
+.cookie_contents li {
+    font-weight: 300;
+    line-height: 29px;
+    font-size: 18px;
+}
+.cookie_contents table th {
+    line-height: 29px;
+    font-size: 18px;
+}
+.cookie_contents table td {
+    font-weight: 300;
+    line-height: 29px;
+    font-size: 18px;
+}
+.cookie_contents table {
+    margin-bottom: 20px;
+}
+/* Home page enterprise sol */
+section#solutions {
+    padding: 25px 0;
+}
+#solutions h3 {
+    margin-bottom: 40px;
+}
+.solutions .technology_title h6 img, #technolgoies .logo_outer img {
+    margin: 0px auto;
+    display: block;
+    padding-bottom: 20px;
+}
+#solutions .technology_title h6 {
+    min-height: 177px;
+    height: auto;
+}
+.solutions .technology_title:nth-child(2) h6 img {
+    margin-bottom: 13px;
+}
+
+/* Technologies slider */
+
+#technolgoies .logo_outer {
+    min-height: 160px;
+}
+#technolgoies .technology_title h6 img {
+    max-width: 100%;
+}
+#technolgoies .carousel-control-next {
+    top: 38%;
+    right: 0px;
+}
+#technolgoies .carousel-control-prev {
+    top: 38%;
+}
+#technolgoies .spc.carousel-item {
+    /* height: 190px; */
+}
+#technolgoies .techtitles_group {
+    position: relative;
+}
+#technolgoies .logo_outer img {
+    height: 60px;
+    width: auto;
+}
+/* footer cert & exp cards*/
+.third_Col .custom-html-widget {
+    margin-top: 33px;
+}
+.iso, .expr {
+    position: fixed;
+    z-index: 999;
+    padding: 20px 8px 10px;
+    width: 7%;
+    border: 1px solid;
+    border-top: none;
+}
+.iso p, .expr p {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    line-height: 24px;
+}
+span.numb {
+    font-size: 26px;
+    font-weight: 400;
+}
+.expr {
+    background: #eb5a23;
+    top: 0%;
+    right: 17%;
+}
+.iso {
+    background: #212529;
+    top: 0;
+    margin-right: 16px;
+    right: 25%;
+}
+.side.sociall_icons i {
+    color: #EC5A23;
+}
+.side.sociall_icons {
+    position: fixed;
+    right: 0;
+    z-index: 999;
+    top: 30%;
+    /* padding: 20px; */
+    background: #fff;
+    border: 1px solid;
+    border-right: none;
+}
+.side.sociall_icons p:not(:first-child) {
+    border-top: 1px solid;
+}
+
+.side.sociall_icons p {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.side.sociall_icons p:hover {
+    background-color: #ec7648;
+}
+.side.sociall_icons p:hover i {
+    color: #fff;
+}

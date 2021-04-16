@@ -1,0 +1,333 @@
+/*  Priyas Style sheet **/
+
+/* dynamic main section*/ 
+
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff5722 !important;
+    border-color: #ff5722 !important;
+}
+.moreread {
+    color: #fff;
+    background-color: #eb5a23;
+    border-color: #eb5a23;
+    padding: 12px 25px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.rightsidepadding {
+    padding: 0px 50px;
+}
+#howwework h2{
+    color: #000 !important;
+    margin-bottom: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    letter-spacing: -1.5px;
+}
+.bg_overlay {
+    background: #0000008a;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+#greatplacetowork h2 {
+    color: #000;
+    margin-bottom: 25px;
+    font-weight: 500;
+    max-width: 270px;
+    letter-spacing: -1.5px;
+}
+.projecttalk {
+    background: #fff !important;
+    min-height: 300px;
+    display: -webkit-box;
+    flex-wrap: wrap;
+}
+#greate_place_head {
+    color: #fff !important;
+    margin-bottom: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    max-width: 270px;
+    position: relative;
+    padding-top: 62px;
+    letter-spacing: -1.5px;
+}
+.great_place_row p {
+    text-align: justify;
+}
+.great_place_row {
+    background: #f9f9f9;
+}
+.partner_logos {
+    margin: 42px 0;
+}
+#industry_para {
+    background-color: #f1f1f1;
+    padding: 68px 50px;
+}
+.custom_bi_block .wp-block-button {
+    margin: 0 auto !important;
+    text-align: center;
+}
+.page-template-template-products h2#newsrooms {
+    text-align: center;
+    padding: 30px;
+    padding-top: 0;
+}
+.spec_Col_indus {
+    height: auto;
+    vertical-align: middle !important;
+}
+.partnerlogo_outer {
+    padding: 0 16px;
+    display: table;
+}
+.partnerlogo_outer_img_out{
+    vertical-align: middle;
+    display: table-cell;
+}
+.partnerlogo_outer img {
+    filter: grayscale(1);
+}
+.partnerlogo_outer img:hover {
+    filter: inherit;
+}
+.mb-5, .my-5 {
+    margin-bottom: 0rem!important;
+}
+.mt-5, .my-5 {
+    margin-top: 0rem!important;
+}
+#industrycol {
+    background-color: #FF5722;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.industries_logos_outer {
+    float: left;
+    width: 50%;
+    color: #fff;
+    text-align: left;
+    min-height: 70px;
+    margin-bottom: 0;
+}
+.industries_logos span {
+    /* font-size: 22px; */
+    padding-left: 16px;
+    font-weight: 500;
+}
+.industries_logos {
+    padding-top: 5px;
+}
+h2#industrise{
+    padding:25px !important;
+}
+
+#industry_para p {
+    /* font-size: 23px; */
+    line-height: 38px;
+}
+.iconsection{
+    text-align:center;
+}
+#industrycol .fa{
+    font-size:3rem;
+}
+#iconlabel{
+    font-size:1.2rem;
+    padding-left:10px;
+    color:#fff;
+    font-weight:500;
+}
+
+/*** style for Insights & Newsrooms section ***/
+h4.Ar-vr-title {
+    text-decoration: none;
+    padding-top: 22px;
+}
+h4.Ar-vr-title a {
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.Ar-vr-para p {
+    color: #595959;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    padding-right: 20px;
+}
+h4.techno-title a{
+    color:#000 !important;
+}
+.firstpost img {
+    width: 100%;
+    height: auto;
+}
+h2#newsrooms {
+    text-align: center;
+    padding: 30px;
+}
+a#seeallinsight {
+    background-color: #ff5722 !important;
+    text-decoration: none !important;
+    font-size: 17px !important;
+    border-color: #ff5722 !important;
+}
+.newsroom-btn {
+    text-align: center;
+    padding: 25px;
+}
+a.readmore{
+    color: #eb5a23 !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+    text-transform: capitalize;
+    line-height: 28px;
+}
+a.techno-cat{
+    color:#000 !important;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+h2#newsrooms {
+    text-align: center;
+    padding: 30px;
+    padding-top: 26px;
+}
+.newsroom-btn {
+    text-align: center;
+    padding: 25px;
+}
+.techrow {
+    margin-bottom: 25px;
+}
+
+h4.techno-para a {
+    color: #595959;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+h4.techno-para {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+/** Service pages style start **/
+.service_list_contents{
+    color:#000;
+}
+.wp-block-nectar-blocks-bootstrap-container.container.custome_service {
+    margin-top: -15px;
+}
+.postid-175 ::marker {
+    color: #000;
+}
+
+/** Discover us page **/
+
+h2.discover_overview_left_text {
+    margin: 0px 33px;
+}
+.main_intro.exp {
+    margin: 47px -2%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* Blog single pg */
+/* .sidebar ul li.sidebar_widget {
+    list-style-type: none;
+}
+.sidebar input#s::placeholder {
+    color: #212529;
+    font-size: 16px;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.sidebar h3.widgetTitle {
+    color: #ec5a23;
+    padding-left: 10px;
+    border-left: 2px solid #ec5a23;
+    margin-bottom: 16px;
+}
+.sidebar ul li a {
+    font-weight: 300;
+    line-height: 25px;
+    font-size: 16px;
+    color: #212529;
+}
+.sidebar ul li:nth-child(2) ul li, .sidebar ul li:nth-child(3) ul li {
+    margin-left: -25px;
+    padding-bottom: 5px;
+}
+li.sidebar_widget {
+    margin-top: 29px;
+}
+.sidebar {
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    padding: 1px 40px 20px 0;
+    height: 100vh;
+}
+.rightsidebar {
+    height: 100vh;
+} */
+.sidebar_single_page {
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    padding: 1px 40px 20px 0;
+}
+
+.rightsidebar {
+    height: 100vh;
+}
+
+.sidebar {
+}
+
+li.sidebar_widget {
+    margin-top: 50px;
+}
+
+.sidebar h3.widgetTitle {
+    color: #ec5a23;
+    padding-left: 10px;
+    border-left: 2px solid #ec5a23;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+.sidebar ul li:nth-child(2) ul li, .sidebar ul li:nth-child(3) ul li {
+    margin-left: -25px;
+    padding-bottom: 5px;
+    color: #ec5a23;
+}
+li.sidebar_widget {
+    margin-top: 50px;
+    list-style: none;
+}
+
+.sidebar ul li a {
+    color: #212529;
+}
+.sidebar input#s::placeholder {
+    color: #212529;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.sidebar input#s {
+    color: #212529;
+}
