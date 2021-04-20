@@ -706,7 +706,13 @@ technologies
 			<div class="fp-tooltip right">Home</div>
 		</li>
 		<li>
-			<a href="#howwework" id="hww" class="">
+			<a href="#logosliders" id="lgslider">
+				<span></span>
+			</a>
+			<div class="fp-tooltip right">Our Clients</div>
+		</li>
+		<li>
+			<a href="#howwework" id="hww">
 				<span></span>
 			</a>
 			<div class="fp-tooltip right">How We Work</div>

@@ -56,7 +56,7 @@
 	<div class="container-fluid top_bar">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-sm-3 col-md-3 top_bar_icons">
+				<div class="col-12 col-sm-3 top_bar_icons">
 					<div class="row">
 						<div class="top_icons">
 							<span id="multilang"><i class="fa fa-globe"></i><span id="lang">EN</span></span>
@@ -128,7 +128,7 @@
 																	<div class="col-12 col-lg-8">
 																		<div class="cert_text">
 																			<p class="cert_text1">TL</p>
-																			<p class="cert_text2">9000:2016</p>
+																			<p class="cert_text2">9000: 2016</p>
 																		</div>
 																	</div>
 																</div>
@@ -141,7 +141,7 @@
 																	<div class="col-12 col-lg-8">
 																		<div class="cert_text">
 																			<p class="cert_text1">ISO</p>
-																			<p class="cert_text2">20000-1:2018</p>
+																			<p class="cert_text2">20000-1: 2018</p>
 																		</div>
 																	</div>
 																</div>
@@ -153,10 +153,10 @@
 
 											<div class="col-12 col-md-4 ce_col">
 												<div class="excl">
-													<div class="col-12 col-lg-3 ce_col_img">
+													<div class="col-3 ce_col_img">
 														<img src="<?php echo get_template_directory_uri(); ?>/images/icon-2.png" width="" height="" alt="" />
 													</div>
-													<div class="col-12 col-lg-9 ce_col_text">
+													<div class="col-9 ce_col_text">
 														<div class="row ce_text">
 															<p class="ce_text2">10+ YRS OF</p>
 															<p class="ce_text3">EXCELLENCE</p>
@@ -184,7 +184,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-9 col-md-9 header_right">
+				<div class="col-12 col-sm-9 header_right">
 					<div class="row">
 						<div class="header_right_btns">
 							<a href="<?php echo get_option('home'); ?>/careers" class="career_btn">CAREERS</a>
@@ -237,7 +237,7 @@
 	<div class="container-fluid header_top">
 		<div class="container">
 			<div class="row">
-					<div class="col-sm-4 col-md-3 ">
+					<div class="col-12 col-sm-4 col-md-3">
 						<div class ="row">
 		<?php if ( function_exists( 'the_custom_logo' )) {
 								the_custom_logo();
@@ -253,7 +253,7 @@
             				<?php // } ?>
 						</div>
 					</div> -->
-					<div class="col-sm-8 col-md-9">
+					<div class="col-12 col-sm-8 col-md-9">
 						<nav class="navbar navbar-expand-sm navbar-dark text-right">
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 								<span class="navbar-toggler-icon"></span>

@@ -162,10 +162,39 @@ $('.button-group').each( function( i, buttonGroup ) {
 jQuery(document).ready(function( $ ){
   $(window).scroll(function (event) {
   var scroll = $(window).scrollTop();
+  var pos_slider = $("#homepageslider").position();
+  var pos_logoslider = $("#logosliders").position();
+  var pos_hww = $("#howwework").position();
+  var pos_productslider = $("#productslider").position();
+  var pos_technolgoies = $("#technolgoies").position();
+  var pos_solutions = $("#solutions").position();
+  var pos_case_study = $("#case_study").position();
+  var pos_Insidenewsroom = $("#Insidenewsroom").position();
+  var pos_testimonial = $("#testimonial").position();
+  var pos_gptw = $("#greatplacetowork").position();
+  var pos_dayp = $("#discussabtproject").position();
+  var pos_newsletter = $("#newsletter").position();
+  var pos_sitemap = $("#sitemap").position();	
   if($(window).width() > 767) {
     $('header').toggleClass('sticky_header', scroll > 0);
     //add 'sticky_header' class when div position match or exceeds else remove that class.
   }
+  // if($('#homepageslider').scrollTop() == 0) {
+  //   $("#hslider").addClass("active")
+  // }
+  $("#hslider").toggleClass("active", (scroll >= pos_slider.top-150 && scroll < pos_logoslider.top-150) || scroll <= 0);
+  $("#lgslider").toggleClass("active", scroll >= pos_logoslider.top-150 && scroll < pos_hww.top-150);
+  $("#hww").toggleClass("active", scroll >= pos_hww.top-150 && scroll < pos_productslider.top-150);
+  $("#prodslider").toggleClass("active", scroll >= pos_productslider.top-150 && scroll < pos_technolgoies.top-150);
+  $("#techn").toggleClass("active", scroll >= pos_technolgoies.top-150 && scroll < pos_solutions.top-150);
+  $("#soln").toggleClass("active", scroll >= pos_solutions.top-150 && scroll < pos_case_study.top-150);
+  $("#cstudy").toggleClass("active", scroll >= pos_case_study.top-150 && scroll < pos_Insidenewsroom.top-150);
+  $("#newsi").toggleClass("active", scroll >= pos_Insidenewsroom.top-150 && scroll < pos_testimonial.top-150);
+  $("#testm").toggleClass("active", scroll >= pos_testimonial.top-150 && scroll < pos_gptw.top-150);
+  $("#gptw").toggleClass("active", scroll >= pos_gptw.top-150 && scroll < pos_dayp.top-150);
+  $("#dayp").toggleClass("active", scroll >= pos_dayp.top-150 && scroll < pos_newsletter.top-150);
+  $("#subs").toggleClass("active", scroll >= pos_newsletter.top-150 && scroll < pos_sitemap.top-150);
+  $("#stmp").toggleClass("active", scroll >= pos_sitemap.top-150);
   });
   //trigger the scroll
   // $(window).scroll();//ensure if you're in current position when page is refreshed
@@ -177,7 +206,7 @@ jQuery(document).ready(function( $ ){
   $("#searchsubmit").val("");
 
   // side scroll
-	// var pos_slider = $("#homepageslider").position();
+  // var pos_slider = $("#homepageslider").position();
 	// var pos_hww = $("#howwework").position();
   // var pos_productslider = $("#productslider").position();
   // var pos_technolgoies = $("#technolgoies").position();
@@ -188,64 +217,30 @@ jQuery(document).ready(function( $ ){
   // var pos_gptw = $("#greatplacetowork").position();
   // var pos_dayp = $("#discussabtproject").position();
   // var pos_newsletter = $("#newsletter").position();
-  // var pos_sitemap = $("#sitemap").position();				 
+  // var pos_sitemap = $("#sitemap").position();	
 
-	// $(window).scroll(function() {
-	// 	var windowpos = $(window).scrollTop();
-	// 	if (windowpos >= pos_slider.top & windowpos < pos_hww.top) {
-  //     $('#fp-nav a').removeClass('active');
-	// 		$("#hslider").addClass("active");
-	// 	} 
-  //   if(windowpos >= pos_hww.top & windowpos < pos_productslider.top) {
-	// 		$('#fp-nav a').removeClass('active');
-  //     $("#hww").addClass("active");
-	// 	} 
-  //   if(windowpos >= pos_productslider.top & windowpos < pos_technolgoies.top) {
-	// 		$('#fp-nav a').removeClass('active');
-  //     $("#prodslider").addClass("active");
-	// 	} 
-  //   if(windowpos >= pos_technolgoies.top & windowpos < pos_solutions.top) {
-	// 		$('#fp-nav a').removeClass('active');
-  //     $("#techn").addClass("active");
-	// 	} 
-  //   if(windowpos >= pos_solutions.top & windowpos < pos_case_study.top) {
-	// 		$('#fp-nav a').removeClass('active');
-  //     $("#soln").addClass("active");
-	// 	} 
-  //   if(windowpos >= pos_case_study.top & windowpos < pos_Insidenewsroom.top) {
-	// 		$('#fp-nav a').removeClass('active');
-  //     $("#cstudy").addClass("active");
-	// 	} 
-  //   if(windowpos >= pos_Insidenewsroom.top & windowpos < pos_testimonial.top) {
-	// 		$('#fp-nav a').removeClass('active');
-  //     $("#newsi").addClass("active");
-	// 	} 
-  //   if(windowpos >= pos_testimonial.top & windowpos < pos_gptw.top) {
-	// 		$('#fp-nav a').removeClass('active');
-  //     $("#testm").addClass("active");
-	// 	} 
-  //   if(windowpos >= pos_gptw.top & windowpos < pos_dayp.top) {
-	// 		$('#fp-nav a').removeClass('active');
-  //     $("#gptw").addClass("active");
-	// 	} 
-  //   if(windowpos >= pos_dayp.top & windowpos < pos_newsletter.top) {
-	// 		$('#fp-nav a').removeClass('active');
-  //     $("#dayp").addClass("active");
-	// 	} 
-  //   if(windowpos >= pos_newsletter.top & windowpos < pos_sitemap.top){
-  //     $('#fp-nav a').removeClass('active');
-  //     $("#subs").addClass("active");
-  //   } 
-  //   if(windowpos >= pos_sitemap.top) {
-  //     $('#fp-nav a').removeClass('active');
-  //     $("#stmp").addClass("active");
-  //   }
-	// });
+//   $(window).scroll(function (event) {
+// 	if ( $(window).scrollTop() >= $('#homepageslider').position.top && $(window).scrollTop() < $('#howwework').position.top) {
+//     $('#fp-nav a').removeClass('active');
+//     $("#hslider").addClass("active");
+//   }
 
-  $("#fp-nav a").click(function(){
-    $('#fp-nav a').removeClass('active');
-    $(this).addClass('active'); 
-  });
+// if ( $(window).scrollTop() >= $('#howwework').position.top && $(window).scrollTop() < $('#productslider').position.top) {
+//   $('#fp-nav a').removeClass('active');
+//   $('#hww').addClass('active');
+//   }
+
+// if ( $(window).scrollTop() >= $('#productslider').position.top ) {
+//   $('#fp-nav a').removeClass('active');
+//   $('#prodslider').addClass('active');
+//   }
+// });
+
+  // side scroll click event
+  // $("#fp-nav a").click(function(){
+  //   $('#fp-nav a').removeClass('active');
+  //   $(this).addClass('active'); 
+  // });
 
   //gtranslate show which language showing
   $(".glink").click(function(){
@@ -292,16 +287,16 @@ function offsetAnchor() {
   }
 }
 
-// Captures click events of all a elements with href starting with #
+// // Captures click events of all a elements with href starting with #
 $(document).on('click', 'a[href^="#"]', function(event) {
-  // Click events are captured before hashchanges. Timeout
-  // causes offsetAnchor to be called after the page jump.
+//   // Click events are captured before hashchanges. Timeout
+//   // causes offsetAnchor to be called after the page jump.
   window.setTimeout(function() {
     offsetAnchor();
   }, 0);
 });
 
-// Set the offset when entering page with hash present in the url
+// // Set the offset when entering page with hash present in the url
 window.setTimeout(offsetAnchor, 0);
 
 

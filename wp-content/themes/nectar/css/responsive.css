@@ -26,7 +26,7 @@ a.bx-next {
 nav.navbar {
     width: 100%;
     background: #ef642aa8;
-    margin-top: 14px;
+    margin: 5px 0;
     border-radius: 5px;
 }
 div#collapsibleNavbar {
@@ -565,8 +565,8 @@ span.numb {
 .top_icons .box {
     right: -2%;
 }
-.top_icons .box.arrow-top:after {
-    /* right: 32px; */
+.top_icons .box.arrow-top {
+    margin-top: 6px;
 }
 .top_bar .sociall_icons {
     margin: 5px 0 !important;
@@ -621,7 +621,7 @@ p.infotext {
     left: 32.5%;
 }
 .infocol {
-    padding: 15px 5px;
+    padding: 15px 10px;
     margin-bottom: 15px;
 }
 .infocol .num {
@@ -632,19 +632,22 @@ p.infotext {
     padding-top: 10px;
     font-size: 14px;
 }
+.excl {
+    padding-top: 23px;
+}
 p.ce_text1 {
     text-align: left;
     font-size: 11px;
     line-height: 13px;
 }
 p.ce_text2 {
-    font-size: 11px;
+    font-size: 26px;
     text-align: left;
-    line-height: 10px;
+    line-height: 23px;
 }
 p.ce_text3 {
-    font-size: 11px;
-    line-height: 21px;
+    font-size: 26px;
+    line-height: 38px;
     text-align: left;
 }
 .ce_col:nth-child(2) {
@@ -688,6 +691,20 @@ span.flag_phnno.pc_hide:after {
 }
 #fp-nav {
     display: none;
+}
+p.cert_text2 {
+    font-size: 16px;
+    line-height: 19px;
+}
+.cert_text {
+    left: inherit;
+    top: inherit;
+}
+.nt3_img_block {
+    padding-left: 20px;
+}
+.nt3_img_block img {
+    width: 34%;
 }
 }
 /*************iPhone Landscape*************/
@@ -1850,6 +1867,16 @@ span.flag_phnno:after {
     }
     .top_icons .box.arrow-top:after {
         left: 13%;
+    }
+    .header_right_btns {
+        margin-right: 30px;
+    }
+    span.flag_phnno:after {
+        right: 17px;
+    }
+    #collapsibleNavbar {
+        position: relative;
+        right: -10%;
     }
 }
 

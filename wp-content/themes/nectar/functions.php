@@ -182,12 +182,14 @@ if ( function_exists('register_sidebar') )
     $args3 = array(
         'public' => true,
         'label'  => 'Case Studies',
+        'show_in_rest' => true,
         'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
       );
       register_post_type( 'case_studies', $args3 );
 
       $args_case = array(
         'label'        => __( 'Categories', 'textdomain' ),
+        'show_in_rest' => true,
         'hierarchical' => true
     );
     register_taxonomy( 'case_category', 'case_studies', $args_case );
