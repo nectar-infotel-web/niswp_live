@@ -706,6 +706,12 @@ p.cert_text2 {
 .nt3_img_block img {
     width: 34%;
 }
+.innerpages .wp-block-cover {
+    min-height: 176px !important;
+}
+.innerpages .main_heading {
+    font-size: 30px !important;
+}
 }
 /*************iPhone Landscape*************/
 @media only screen and (max-width: 767px) and (min-width: 480px){

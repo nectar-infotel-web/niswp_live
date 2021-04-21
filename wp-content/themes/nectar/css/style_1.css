@@ -259,12 +259,12 @@ section#testimonial {
 /* Software dev page */
 #software-logoslider .imgouter_sepc, #ai-logoslider .imgouter_sepc {
     border-radius: 100%;
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border: 1px solid #988b8b;
     margin: 0 auto;
     background: #ffff;
-    padding: 13%;
+    padding: 10%;
     display: block;
 }
 #software-logosliders .carousel-control-prev {

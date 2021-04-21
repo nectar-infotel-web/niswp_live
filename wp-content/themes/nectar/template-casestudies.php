@@ -38,11 +38,22 @@ get_header(); ?>
 	     );
 		$q = new WP_Query($args); $i=0;
 		if ( $q->have_posts() ) : while ( $q->have_posts() ) : $q->the_post(); 
-		$terms = wp_get_object_terms( get_the_ID(), 'case_category');
-		$category_name = $terms[0]->name;
-		$category_name = strtolower(str_replace(' ', '', $category_name));
+		// $terms = wp_get_object_terms( get_the_ID(), 'case_category');
+		// $category_name = $terms[0]->name;
+		// $category_name = strtolower(str_replace(' ', '', $category_name));
+		$cat_array = array();
+		$terms = get_the_terms( get_the_ID(), 'case_category');
+		foreach($terms as $term):
+			$category_name=$term->name;
+			$category_name = strtolower(str_replace(' ', '', $category_name));
+			array_push($cat_array,$category_name);
+		endforeach;
 		?>
-		<div class="col-sm-12 col-md-4 element-item <?php echo $category_name; ?>" data-category="transition">
+		<div class="col-sm-12 col-md-4 element-item <?php 
+			foreach($cat_array as $cat):
+				echo $cat." ";
+			endforeach;
+		?>" data-category="transition">
                 <div class="card">
                     <img class="card-img-top" src="<?php echo the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
                     <div class="card-body">
