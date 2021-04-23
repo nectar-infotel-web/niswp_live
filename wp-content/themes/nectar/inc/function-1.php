@@ -11,6 +11,13 @@ function logoslider_add_custom_box() {
             'logoslider_custom_box_html',  
             array('logoslider','productslider','partners','testimonial')                        
         );
+        // enterprise solutions cpt: to link icon & title
+        add_meta_box(
+            'icon_title_link',                
+            'Link icon & title',      
+            'icon_title_link_fun',  
+            'solutions'                      
+        );
         add_meta_box(
             'icon_name1',                
             'Logo Font',      
@@ -48,6 +55,16 @@ function logoslider_custom_box_html( $post ) {
     <input name="logoslider_title" id="logoslider_title" value="<?php echo $value_title; ?>">
     <?php
 }
+// enterprise solutions cpt: to link icon & title
+function icon_title_link_fun( $post ) {
+    $link = get_post_meta( $post->ID, '_sol_link_key', true );
+    ?>
+
+    <label for="sol_link">Enter relative URL: </label>
+    <input name="sol_link" id="sol_link" value="<?php echo $link; ?>">
+
+    <?php
+}
 function icon_name_fun( $post ) {
     $value = get_post_meta( $post->ID, 'icon_name', true );
     ?>
@@ -72,6 +89,16 @@ function save_jobs($post_id){
             $post_id,
             'job_location',
             $_POST['job_location']
+        );
+    }
+}
+// enterprise solutions cpt: to link icon & title
+function save_solutions_link($post_id){
+    if ( array_key_exists( 'sol_link', $_POST ) ) {
+        update_post_meta(
+            $post_id,
+            '_sol_link_key',
+            $_POST['sol_link']
         );
     }
 }
@@ -103,6 +130,7 @@ function save_post_industries( $post_id ) {
 add_action( 'save_post', 'logoslider_save_postdata' );
 add_action( 'save_post_industries', 'save_post_industries' );
 add_action( 'save_post_jobs', 'save_jobs' );
+add_action( 'save_post_solutions', 'save_solutions_link' );
 // Logo slider link custom field ends
 
 // Testimonial author custom field starts

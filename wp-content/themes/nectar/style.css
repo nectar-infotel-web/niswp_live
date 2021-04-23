@@ -991,7 +991,7 @@ input#wp-comment-cookies-consent {
 .services_list h2 {
     text-align: center;
     font-size: 27px;
-    margin-bottom: 49px;
+    margin: 49px 0;
     font-weight: bold;
 }
 .service_card {
@@ -1014,7 +1014,7 @@ a.read_more {
 }
 #products {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 .box{
     background: #fcfcfc;
@@ -1251,14 +1251,14 @@ p.titles {
     width: 100%;
 }
 .fullinnerslider a.carousel-control-next {
-    right: -58px;
+    /* right: -58px; */
 }
 .fullinnerslider a.carousel-control-prev {
-    left: -58px;
+    /* left: -58px; */
 }
-.fullinnerslider  .carousel-inner {
+/* .fullinnerslider  .carousel-inner {
     overflow: inherit !important;
-}
+} */
 p.titles_p {
     font-size: 18px;
     font-weight: 400;
@@ -1472,7 +1472,7 @@ i.fa.fa-quote-left,i.fa.fa-quote-right {
     position: absolute;
     top: 0;
     font-size: 79px;
-    z-index: 9999;
+    z-index: 1;
     color: #d5d5d5;
 }
 .nopad{
@@ -1575,6 +1575,10 @@ i.fa.fa-quote-right {
     font-weight: 500;
     line-height: 25px;
     margin-top: 19px;
+    color:#000;
+}
+.technology_title.solu a:hover p {
+    color: #eb5a23;
 }
 .technology_title{
     padding: 25px 16px;
@@ -2105,3 +2109,15 @@ span.flag_phnno {
     text-align: inherit !important;
 }
 /* Case study single pg end */
+.sidebar_widget #s {
+    margin-bottom: 12px;
+}
+.technology_title.solu a {
+    text-decoration: none;
+}
+.case_studies .card-text p {
+    line-height: 28px !important;
+}
+#case_study .card-body h5, #case_study .card-body .card-text p, #case_study .card-body a {
+    text-align: center;
+}

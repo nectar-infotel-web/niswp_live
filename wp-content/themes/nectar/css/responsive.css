@@ -12,7 +12,11 @@ h2.overview_head {
     margin-top: 24px;
 }
 .main_heading {
-    line-height: 45px;
+    line-height: 37px;
+    font-size: 30px !important;
+}
+.singleposts .bread_crumb {
+    padding: 0 20px;
 }
 a.bx-prev {
     left: 4px !important;
@@ -712,6 +716,12 @@ p.cert_text2 {
 .innerpages .main_heading {
     font-size: 30px !important;
 }
+h3.case_study_subheading {
+    padding-top: 20px;
+}
+.singleposts .empty-height {
+    padding: 90px 0;
+}
 }
 /*************iPhone Landscape*************/
 @media only screen and (max-width: 767px) and (min-width: 480px){
@@ -806,12 +816,24 @@ a.carousel-control-prev, a.carousel-control-next {
 }
 .slider_container h1 {
     font-size: 36px;
-    line-height: 51px;
+    line-height: 39px;
     color: #fff;
 }
-
+#logosliders .logo_outer img {
+    width: 85%;
+}
+#logosliders {
+    padding: 20px 0 !important;
+}
+#productslider {
+    padding: 20px 0 52px !important;
+}
+.technology_title.solu {
+    padding: 25px;
+}
 .slider_container p {
     color: #fff;
+    margin: 14px 0;
 }
 .logo_outer {
     display: inline-block;
@@ -859,16 +881,22 @@ a.carousel-control-prev, a.carousel-control-next {
     padding: 0;
     padding-top: 50px;
 }
-.firstcol {
-    padding-left: 0;
+/* .firstcol {
+    padding-left: 60px;
+} */
+span.connect {
+    position: relative;
+    left: 31%;
 }
 span.sociall_icons {
     margin-bottom: 20px;
     display: block;
 }
 
-ul#menu-bottom-menu {
-    float: left;
+.btm_menu ul {
+    float: none;
+    position: relative;
+    left: 14%;
 }
 .sec_Col,.third_Col,.lastcol{
     padding-left: 25px;
@@ -937,7 +965,7 @@ ul#menu-bottom-menu {
     font-size: 16px;
 }
 .slider_container {
-    margin-top: 25%;
+    margin-top: 17%;
 }
 .notfound_box form#searchform {
     width: 100%;
@@ -1128,8 +1156,8 @@ span.numb {
     left: 4%;
 }
 #multilangbox {
-    min-width: 300px !important;
-    left: 1%;
+    min-width: 194px !important;
+    left: 9%;
 }
 .top_icons .box.arrow-top {
     right: 0%;
@@ -1149,7 +1177,7 @@ p.infotext {
     line-height: 33px;
 }
 #totalinfo::after {
-    left: 10.5%;
+    left: 14%;
 }
 .info_container {
     margin: 26px 0;
@@ -1165,12 +1193,12 @@ p.ce_text1 {
     line-height: 19px;
 }
 p.ce_text2 {
-    font-size: 13px;
-    line-height: 11px;
+    font-size: 27px;
+    line-height: 27px;
 }
 p.ce_text3 {
-    font-size: 13px;
-    line-height: 25px;
+    font-size: 26px;
+    line-height: 38px;
 }
 p.cta_text.mob_hide {
     display: none;
@@ -1181,7 +1209,7 @@ p.cta_text.mob_hide {
     margin: 15px auto;
 }
 #searchbox::after {
-    left: 7%;
+    left: 13%;
 }
 #searchbox {
     left: 18%;
@@ -1201,6 +1229,24 @@ span.flag_phnno:after {
 }
 #fp-nav {
     display: none;
+}
+.cert_text {
+    left: inherit;
+    top: inherit;
+}
+.excl {
+    padding: 38px 0px 16px 180px;
+}
+.ce_text {
+    position: relative;
+    left: -21px;
+}
+.homeslider .slide-right {
+    margin-left: 30px;
+}
+.copyright_row p {
+    left: 12%;
+    position: relative;
 }
 }
 /*************iPad Portrait***************/

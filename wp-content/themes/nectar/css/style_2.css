@@ -183,7 +183,7 @@ a#seeallinsight {
 }
 .newsroom-btn {
     text-align: center;
-    padding: 25px;
+    padding-bottom: 30px;
 }
 a.readmore{
     color: #eb5a23 !important;
@@ -203,10 +203,6 @@ h2#newsrooms {
     text-align: center;
     padding: 30px;
     padding-top: 26px;
-}
-.newsroom-btn {
-    text-align: center;
-    padding: 25px;
 }
 .techrow {
     margin-bottom: 25px;

@@ -55,10 +55,10 @@
     <div class="container-fluid social_row">
         <div class="container">
         <div class="row">
-        <div class="col-md-2 col-sm-4 firstcol">
+        <div class="col-12 col-sm-6 col-md-2 firstcol">
            <span class="connect">Connect with us</span>
         </div>
-        <div class="col-md-3 col-sm-8">
+        <div class="col-12 col-sm-6 col-md-3 secondcol">
                 <span class="sociall_icons">
                     <?php
                         $fb_link = get_theme_mod('fb_link');
@@ -75,7 +75,7 @@
                 </span>
             
         </div>
-        <div class="col-md-7 col-sm-12 btm_menu">
+        <div class="col-12 col-md-7 btm_menu">
             <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('bottom_menu') ) : ?>
 			<?php endif; ?>
         </div>

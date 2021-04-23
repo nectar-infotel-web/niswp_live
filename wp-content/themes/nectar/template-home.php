@@ -441,10 +441,20 @@ technologies
 
 			while ( $techs->have_posts() ) : $techs->the_post(); 
 				?>     
-				<div class="col-md-3 col-sm-12 col-xs-12 ">
+				<div class="col-12 col-sm-6 col-md-3">
 					<div class="technology_title solu">
-						<?php the_post_thumbnail(); ?>
+					<?php 
+						$sol_link = get_post_meta( $post->ID, '_sol_link_key', true ); 
+						if($sol_link):
+							echo "<a href='";
+							get_option('home');
+							echo $sol_link."'>";
+						endif;
+						the_post_thumbnail(); ?>
 						<p><?php the_title(); ?></p>
+					<?php if($sol_link): ?>
+					</a>
+					<?php endif; ?>
 					</div>
 				</div>
 				<?php
@@ -487,6 +497,9 @@ technologies
 			wp_reset_postdata();
 			?>  
 
+		</div>
+		<div class="newsroom-btn">
+			<a class="btn btn-primary moreread" href="<?php get_option('home');?>/case-studies/">SEE ALL CASE STUDIES</a>
 		</div>
 	</div>
 </section>
