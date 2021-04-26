@@ -175,7 +175,7 @@ jQuery(document).ready(function( $ ){
   var pos_dayp = $("#discussabtproject").position();
   var pos_newsletter = $("#newsletter").position();
   var pos_sitemap = $("#sitemap").position();	
-  if($(window).width() > 767) {
+  if($(window).width() > 1024) {
     $('header').toggleClass('sticky_header', scroll > 0);
     //add 'sticky_header' class when div position match or exceeds else remove that class.
   }

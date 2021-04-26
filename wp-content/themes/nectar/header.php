@@ -109,10 +109,10 @@
 														<div class="row">
 															<div class="col-4">
 																<div class="row">
-																	<div class="col-12 col-lg-4">
+																	<div class="col-12 col-xl-4">
 																		<img class="cert_img" src="<?php echo get_template_directory_uri(); ?>/images/icon-1.png" width="" height="" alt="" />
 																	</div>
-																	<div class="col-12 col-lg-8">
+																	<div class="col-12 col-xl-8">
 																		<div class="cert_text">
 																			<p class="cert_text1">ISO</p>
 																			<p class="cert_text2">9001-2015</p>
@@ -122,10 +122,10 @@
 															</div>
 															<div class="col-4">
 																<div class="row">
-																	<div class="col-12 col-lg-4">
+																	<div class="col-12 col-xl-4">
 																		<img class="cert_img" src="<?php echo get_template_directory_uri(); ?>/images/icon-1.png" width="" height="" alt="" />
 																	</div>
-																	<div class="col-12 col-lg-8">
+																	<div class="col-12 col-xl-8">
 																		<div class="cert_text">
 																			<p class="cert_text1">TL</p>
 																			<p class="cert_text2">9000: 2016</p>
@@ -135,10 +135,10 @@
 															</div>
 															<div class="col-4">
 																<div class="row">
-																	<div class="col-12 col-lg-4">
+																	<div class="col-12 col-xl-4">
 																		<img class="cert_img" src="<?php echo get_template_directory_uri(); ?>/images/icon-1.png" width="" height="" alt="" />
 																	</div>
-																	<div class="col-12 col-lg-8">
+																	<div class="col-12 col-xl-8">
 																		<div class="cert_text">
 																			<p class="cert_text1">ISO</p>
 																			<p class="cert_text2">20000-1: 2018</p>
@@ -153,10 +153,10 @@
 
 											<div class="col-12 col-md-4 ce_col">
 												<div class="excl">
-													<div class="col-3 ce_col_img">
+													<div class="col-3 col-md-12 col-xl-3 ce_col_img">
 														<img src="<?php echo get_template_directory_uri(); ?>/images/icon-2.png" width="" height="" alt="" />
 													</div>
-													<div class="col-9 ce_col_text">
+													<div class="col-9 col-md-12 col-xl-9 ce_col_text">
 														<div class="row ce_text">
 															<p class="ce_text2">10+ YRS OF</p>
 															<p class="ce_text3">EXCELLENCE</p>

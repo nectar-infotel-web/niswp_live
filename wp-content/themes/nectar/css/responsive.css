@@ -1610,7 +1610,12 @@ span.flag_phnno:after {
         left: 4%;
     }
     #multilangbox {
-        min-width: 0 !important;
+        min-width: 193px !important;
+        left: 12%;
+    }
+    #searchbox {
+        right: inherit;
+        left: 11%;
     }
     .top_icons .box.arrow-top {
         right: 4%;
@@ -1656,12 +1661,12 @@ span.flag_phnno:after {
         line-height: 20px;
     }
     p.ce_text2 {
-        font-size: 13px;
+        font-size: 20px;
         line-height: 9px;
     }
     p.ce_text3 {
-        font-size: 13px;
-        line-height: 25px;
+        font-size: 20px;
+        line-height: 32px;
     }
     p.cta_text.mob_hide {
         display: none;
@@ -1673,6 +1678,29 @@ span.flag_phnno:after {
     }
     #fp-nav {
         display: none;
+    }
+    .cert_text {
+        left: inherit;
+    }
+    p.cert_text1 {
+        font-size: 25px;
+    }
+    p.cert_text2 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .ce_text {
+        padding-top: 15px;
+    }
+    #totalinfo::after {
+        left: 12.5%;
+    }
+    .excl {
+        padding-top: 77px;
+    }
+    #searchbox {
+        right: inherit;
+        left: 11%;
     }
 }
 /**************iPad Landscape***************/
@@ -1929,6 +1957,43 @@ span.flag_phnno:after {
     #collapsibleNavbar {
         position: relative;
         right: -10%;
+    }
+    #totalinfo {
+        min-width: 986px !important;
+        left: 8%;
+        right: inherit;
+    }
+    #infobox {
+        padding: 50px;
+    }
+    p.infotext {
+        font-size: 25px;
+        line-height: 34px;
+        text-align: center;
+    }
+    .info_container {
+        margin: 24px 0;
+    }
+    .infocol {
+        padding: 20px;
+    }
+    .cert_text {
+        left: inherit;
+    }
+    .excl {
+        padding-top: 77px;
+        padding-left: 56px;
+    }
+    p.ce_text2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    p.ce_text3 {
+        font-size: 26px;
+        line-height: 20px;
+    }
+    .cta_row {
+        padding-left: 23px;
     }
 }
 

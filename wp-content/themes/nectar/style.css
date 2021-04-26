@@ -831,6 +831,12 @@ i.customplus.fa.fa-plus.fa-minus {
 .empty-height {
     padding: 168px 0;
 }
+.jobdesc .empty-height {
+    padding: 106px 0;
+}
+.jobslist {
+    padding-top: 50px;
+}
 .posts {
     padding-bottom: 100px;
 }
@@ -2120,4 +2126,8 @@ span.flag_phnno {
 }
 #case_study .card-body h5, #case_study .card-body .card-text p, #case_study .card-body a {
     text-align: center;
+}
+a.jobbutton.moreread:hover {
+    color: #fff;
+    text-decoration: none;
 }
