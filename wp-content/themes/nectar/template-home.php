@@ -525,7 +525,7 @@ technologies
 				if($icount == 0){
 					?>
 					<div class="col-md-7 col-sm-12 firstpost">
-						<?php the_post_thumbnail( 'large' ); ?>
+						<?php the_post_thumbnail('full'); ?>
 						<h4 class="Ar-vr-title">
 							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 						</h4>
@@ -546,7 +546,11 @@ technologies
 						<div class="technology col-md-6 col-sm-12">
 							<?php  
 							$category = get_the_category(); 
-							echo '<a class="techno-cat" href="'.get_category_link($category[0]->cat_ID).'">'.$category[0]->cat_name.'</a>'; 
+							// print_r($category);
+							foreach($category as $i => $i_value) {
+								echo '<a class="techno-cat" href="'.get_category_link($i_value->cat_ID).'">'. $i_value->cat_name.'</a>&emsp;';
+							}
+							// echo '<a class="techno-cat" href="'.get_category_link($category[0]->cat_ID).'">'.$category[0]->cat_name.'</a>'; 
 							?>
 							<h4 class="techno-para"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 							<a class="readmore" href="<?php the_permalink(); ?>">Read more <i class="fa fa-arrow-right"></i></a>

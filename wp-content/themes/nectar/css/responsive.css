@@ -4,6 +4,7 @@
 .promise_container .wp-block-column {
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 12px;
 }
 .frameimg {
     display: table;
@@ -278,7 +279,7 @@ i.customplus.fa.fa-plus {
 #accordion .card-link {
     font-size: 15px;
     width: 250px;
-    padding-right: 45px;
+    padding-right: 57px;
 }
 .bread_crumb {
     margin: 0 0;
@@ -450,6 +451,7 @@ input#mce-EMAIL {
 }
 input#mc-embedded-subscribe {
     width: 64%;
+    margin-top: 10px;
 }
 .rightsidebar {
     height: auto;
@@ -506,6 +508,7 @@ input#mc-embedded-subscribe {
 }
 .crm_icons p {
     line-height: 24px;
+    margin: 0 20%;
 }
 #mySidenav .navbar-nav li ul li:nth-child(5) a, #mySidenav .navbar-nav li ul li:nth-child(6) a {
     height: 45px;
@@ -560,7 +563,13 @@ span.numb {
     height: 175.719px !important;
 }
 #software-logosliders img {
-    max-width: 92%;
+    max-width: 85%;
+}
+.mob_spacing {
+    height: 50px !important;
+}
+.cert_imgs img {
+    margin-bottom: 30px;
 }
 #searchmodel {
     width: 72% !important;
@@ -714,13 +723,19 @@ p.cert_text2 {
     min-height: 176px !important;
 }
 .innerpages .main_heading {
-    font-size: 30px !important;
+    font-size: 28px !important;
 }
 h3.case_study_subheading {
     padding-top: 20px;
 }
 .singleposts .empty-height {
     padding: 90px 0;
+}
+.newsletter_row h3 {
+    margin: 4px auto;
+}
+.main_intro {
+    margin: 50px 10% 20px;
 }
 }
 /*************iPhone Landscape*************/
