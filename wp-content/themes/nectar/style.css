@@ -1804,13 +1804,14 @@ div#searchmodel .m-d {
 }
 #infobox {
     background: #f1f1f1;
-    padding: 50px 100px;
+    padding: 30px 60px;
 }
 p.infotext {
     color: #000000b8;
-    font-size: 32px;
-    line-height: 45px;
+    font-size: 28px;
+    line-height: 37px;
     font-weight: 300;
+    text-align: center;
 }
 #totalinfo::after {
     border-bottom-color: #f1f1f1;
@@ -1830,12 +1831,12 @@ p.infotext {
     font-size: 18px;
 }
 .info_container {
-    margin: 50px 0;
+    margin: 35px 0;
 }
 .infocol {
     background: #fff;
     width: auto;
-    padding: 20px 70px;
+    padding: 20px 80px;
     border-radius: 5px;
     box-shadow: 0px 2px 3px #888;
 }
@@ -1851,19 +1852,19 @@ p.ce_text1 {
 p.ce_text2 {
     color: #eb5a23;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 32px;
     position: relative;
 }
 p.ce_text3 {
     color: #000;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
-    line-height: 38px;
+    line-height: 32px;
 }
 .cta_text {
     font-size: 18px !important;
-    margin: 10px 0 !important;
+    margin: 0 !important;
 }
 span.gt {
     padding: 0 45px;
@@ -2130,4 +2131,7 @@ span.flag_phnno {
 a.jobbutton.moreread:hover {
     color: #fff;
     text-decoration: none;
+}
+.projecttalk .rightsidepadding {
+    background-size: cover !important;
 }

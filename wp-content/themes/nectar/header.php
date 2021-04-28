@@ -171,8 +171,8 @@
 									<div class="container">
 										<div class="row cta_row">
 											<p class="cta_text mob_hide">Prepare your Project<span class="gt">&gt;</span>Fill out Enquiry Form<span class="gt">&gt;</span>Consult with our team
-												<a id="get_started_btn" class="btn btn-primary moreread" href="#">GET STARTED</a></p>
-												<a id="get_started_btn2" class="btn btn-primary moreread pc_hide" href="#">GET STARTED</a></p>
+												<a id="get_started_btn" class="btn btn-primary moreread" href="<?php echo get_option('home'); ?>/about-us">GET STARTED</a></p>
+												<a id="get_started_btn2" class="btn btn-primary moreread pc_hide" href="<?php echo get_option('home'); ?>/about-us">GET STARTED</a></p>
 										</div>
 									</div>
 								</div>

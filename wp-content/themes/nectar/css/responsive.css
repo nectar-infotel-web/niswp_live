@@ -737,6 +737,15 @@ h3.case_study_subheading {
 .main_intro {
     margin: 50px 10% 20px;
 }
+.postid-1045 .empty-height {
+    padding: 80px 0;
+}
+.cs_desc {
+    padding-top: 33px;
+}
+.cs_desc h3 {
+    font-size: 24px;
+}
 }
 /*************iPhone Landscape*************/
 @media only screen and (max-width: 767px) and (min-width: 480px){

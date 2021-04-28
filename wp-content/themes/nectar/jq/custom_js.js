@@ -176,12 +176,10 @@ jQuery(document).ready(function( $ ){
   var pos_newsletter = $("#newsletter").position();
   var pos_sitemap = $("#sitemap").position();	
   if($(window).width() > 1024) {
+    // $('header').toggleClass('sticky_header', (scroll > 0 && $("#totalinfo").hasClass("hide")));
     $('header').toggleClass('sticky_header', scroll > 0);
-    //add 'sticky_header' class when div position match or exceeds else remove that class.
   }
-  // if($('#homepageslider').scrollTop() == 0) {
-  //   $("#hslider").addClass("active")
-  // }
+  
   $("#hslider").toggleClass("active", (scroll >= pos_slider.top-150 && scroll < pos_logoslider.top-150) || scroll <= 0);
   $("#lgslider").toggleClass("active", scroll >= pos_logoslider.top-150 && scroll < pos_hww.top-150);
   $("#hww").toggleClass("active", scroll >= pos_hww.top-150 && scroll < pos_productslider.top-150);
@@ -205,47 +203,11 @@ jQuery(document).ready(function( $ ){
   // search submit btn
   $("#searchsubmit").val("");
 
-  // side scroll
-  // var pos_slider = $("#homepageslider").position();
-	// var pos_hww = $("#howwework").position();
-  // var pos_productslider = $("#productslider").position();
-  // var pos_technolgoies = $("#technolgoies").position();
-  // var pos_solutions = $("#solutions").position();
-  // var pos_case_study = $("#case_study").position();
-  // var pos_Insidenewsroom = $("#Insidenewsroom").position();
-  // var pos_testimonial = $("#testimonial").position();
-  // var pos_gptw = $("#greatplacetowork").position();
-  // var pos_dayp = $("#discussabtproject").position();
-  // var pos_newsletter = $("#newsletter").position();
-  // var pos_sitemap = $("#sitemap").position();	
-
-//   $(window).scroll(function (event) {
-// 	if ( $(window).scrollTop() >= $('#homepageslider').position.top && $(window).scrollTop() < $('#howwework').position.top) {
-//     $('#fp-nav a').removeClass('active');
-//     $("#hslider").addClass("active");
-//   }
-
-// if ( $(window).scrollTop() >= $('#howwework').position.top && $(window).scrollTop() < $('#productslider').position.top) {
-//   $('#fp-nav a').removeClass('active');
-//   $('#hww').addClass('active');
-//   }
-
-// if ( $(window).scrollTop() >= $('#productslider').position.top ) {
-//   $('#fp-nav a').removeClass('active');
-//   $('#prodslider').addClass('active');
-//   }
-// });
-
-  // side scroll click event
-  // $("#fp-nav a").click(function(){
-  //   $('#fp-nav a').removeClass('active');
-  //   $(this).addClass('active'); 
-  // });
-
   //gtranslate show which language showing
   $(".glink").click(function(){
     var title = $( this ).attr( "title" );
     $( "#lang" ).text( title ); 
+    $("#multilangbox").addClass("hide");
   });
 
   // Header btns
@@ -278,6 +240,11 @@ jQuery(document).ready(function( $ ){
       $("#searchbox").addClass("hide");
       $(".all_phn_nos").removeClass("active");
   });
+
+  // remove 'sticky_header' class when totalinfo box is open
+  // if(!$("#totalinfo").hasClass("hide")) {
+  //   $('header').removeClass("sticky_header");
+  // }
 });
 
 // The function actually applying the offset
