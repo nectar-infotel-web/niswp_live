@@ -36,6 +36,7 @@ p{
     font-weight: 300;
     line-height: 29px;
     font-size: 18px;
+    text-align: justify;
 }
 b, strong {
     font-weight: bold !important;
@@ -305,13 +306,13 @@ a.bx-next{
 /** Logo slider end**/
 /** Home page main slider **/
 .slider_container {
-    margin-top: 16%;
+    margin-top: 13%;
 }
 .homeslider {
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: top right !important;
-    height: 95vh;
+    height: 80vh;
     -webkit-animation: myfirst 5s ; /* Chrome, Safari, Opera */
     animation: myfirst 5s ;
 }
@@ -379,7 +380,7 @@ a.playvideo p {
 }
 /** product slider **/
 section#productslider {
-    padding: 23px 0;
+    padding: 15px 0;
     background: url(images/bg-web.webp) no-repeat;
     color: #fff;
     /* padding-bottom: 97px; */
@@ -698,13 +699,19 @@ span.bc_cpt_title {
     font-weight: bold;
 }
 .main_intro {
-    margin: 85px 10%;
+    margin: 20px 10%;
     font-size: 28px;
     line-height: 36px;
     color: #000000b8;
 }
+.wp-block-columns.crm_icons {
+    margin-bottom: -18px;
+}
+.prodcuts_icons_col.three-col {
+    margin-bottom: 0px !important;
+}
 h2.overview_head {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
     font-weight: bold;
     font-size: 32px;
     letter-spacing: -1.5px;
@@ -765,7 +772,7 @@ i.customplus.fa.fa-plus.fa-minus {
     color: #e55c28;
 }
 .custom_bi_block {
-    padding: 50px;
+    padding: 25px;
 }
 .custom_bi_heading {
     margin-bottom: 24px;
@@ -780,7 +787,7 @@ i.customplus.fa.fa-plus.fa-minus {
     font-weight: bold;
 }
 .promise_container .wp-block-column {
-    padding: 50px 50px 0;
+    padding: 0;
 }
 .promise_container ul li {
     margin-bottom: 20px;
@@ -813,6 +820,10 @@ i.customplus.fa.fa-plus.fa-minus {
     font-size: 18px;
     font-weight: 300;
     line-height: 29px;
+    text-align: justify;
+}
+.m-b-0 {
+    margin-bottom: 0;
 }
 .promise_container li {
     font-size: 18px;
@@ -1154,10 +1165,14 @@ p.logo_title {
 .pdt_columns {
     padding: 0 8%;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .pdt_columns img {
     width: 75%;
+}
+.industries_block .wp-block-columns {
+    margin-bottom: 0;
 }
 .vm_column2 p, .vm_column1 p {
     padding-left: 10%;
@@ -1182,9 +1197,20 @@ p.logo_title {
     line-height: 26px;
     padding-left: 18px;
 }
-
+.wp-block-columns.industries_block {
+    margin-bottom: 0;
+}
+.discoverpg_client_slider #home-logosliders {
+    padding: 0;
+}
+.discoverpg_client_slider .bx-wrapper {
+    margin-bottom: 27px;
+}
+h2.discoverpg_partnership {
+    margin-bottom: 0;
+}
 .industries_block .wp-block-image {
-    margin-bottom: 26px !important;
+    margin-bottom: 10px !important;
     display: block;
 }
 /*** case studies ****/
@@ -1284,8 +1310,8 @@ p.titles_p {
 }
 .contactcontainer {
     background: #fff;
-    margin: 85px auto;
-    padding:5% !important;
+    margin: 37px auto;
+    padding: 20px 30px !important;
     box-shadow: 2px 2px 2px 2px #a09c9c;
 }
 .contact_page_forms input, .contact_page_forms select, .contact_page_forms textarea {
@@ -1310,7 +1336,6 @@ p.titles_p {
     color: #fff !important;
     font-size: 17px !important;
     text-transform: uppercase;
-    margin-top: 34px;
     border: 0 !important;
     outline: none;
     box-shadow: 0px 0px 0px 2px #c7bbbb38;
@@ -1582,6 +1607,7 @@ i.fa.fa-quote-right {
     line-height: 25px;
     margin-top: 19px;
     color:#000;
+    text-align: center;
 }
 .technology_title.solu a:hover p {
     color: #eb5a23;
@@ -2134,4 +2160,26 @@ a.jobbutton.moreread:hover {
 }
 .projecttalk .rightsidepadding {
     background-size: cover !important;
+}
+.partnerlogo_outer_img_out img {
+    filter: grayscale(1) !important;
+}
+.productslider_in .bx-wrapper {
+    margin-bottom: 40px;
+}
+#case_study .moreread, #Insidenewsroom .moreread {
+    margin-top: 0;
+}
+.txt_justify {
+    text-align: justify;
+}
+.social_row p {
+    text-align: left;
+    font-size: 14px;
+    color: #A8A8A8;
+}
+span.sociall_icons {
+    display: block;
+    text-align: center;
+    padding-top: 5px;
 }

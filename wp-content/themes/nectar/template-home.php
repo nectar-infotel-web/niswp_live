@@ -172,15 +172,15 @@ get_header(); ?>
 						?>
 						<div class="col-md-4 col-sm-4 col-xs-12 partnerlogo_outer">
 							<div class="partnerlogo_outer_img_out">
-								<?php 
+								<?php /*
 								$logo_link = get_post_meta( $post->ID, '_logoslider_meta_key', true );
 								if ($logo_link) : ?>
 									<a href="<?php echo $logo_link; ?>" target="_blank">
-									<?php endif; ?>
+									<?php endif;*/ ?>
 									<img src="<?php echo the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
-									<?php if ($logo_link) : ?>
+									<?php /*if ($logo_link) : ?>
 									</a>
-								<?php endif; ?>
+								<?php endif;*/ ?>
 							</div>
 						</div>
 						<?php 

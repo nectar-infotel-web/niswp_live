@@ -1739,6 +1739,7 @@ span.flag_phnno:after {
     }
     #homepageslider .slider_container h1 {
         font-size: 36px;
+        line-height: 40px;
     }
     a.bx-prev {
     left: 4px !important;
@@ -1955,6 +1956,8 @@ span.flag_phnno:after {
     }
     .slide-right {
         margin-left: 35px;
+        position: relative;
+        top: -45px;
     }
     #searchmodel {
         width: 23% !important;
@@ -2019,6 +2022,19 @@ span.flag_phnno:after {
     .cta_row {
         padding-left: 23px;
     }
+    .slider_container p {
+        margin: 25px 0;
+        position: relative;
+        top: -12px;
+    }
+    .slide-right .buttons {
+        position: relative;
+        top: -20px;
+    }
+    a.playvideo p {
+        position: relative;
+        top: 0;
+    }
 }
 
 /* Laptops & PCs */
@@ -2040,6 +2056,10 @@ span.flag_phnno:after {
         margin-left: auto;
         margin-right: -64px;
     }
+    /* .bread_crumb {
+        right: 29%;
+    } */
+    
 }
 
 /** ipad pro ***/
@@ -2058,6 +2078,28 @@ span.flag_phnno:after {
     }
     #howwework .col-lg-5 img {
         height: 213px;
+    }
+    .slide-right {
+        margin-left: 35px;
+        position: relative;
+        top: -45px;
+    }
+    #homepageslider .slider_container h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .slider_container p {
+        margin: 25px 0;
+        position: relative;
+        top: -12px;
+    }
+    .slide-right .buttons {
+        position: relative;
+        top: -20px;
+    }
+    a.playvideo p {
+        position: relative;
+        top: 0;
     }
 }
 /************** big screen ***************/

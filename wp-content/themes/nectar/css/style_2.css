@@ -183,7 +183,6 @@ a#seeallinsight {
 }
 .newsroom-btn {
     text-align: center;
-    padding-bottom: 30px;
 }
 a.readmore{
     color: #eb5a23 !important;
@@ -236,7 +235,7 @@ h2.discover_overview_left_text {
     margin: 0px 33px;
 }
 .main_intro.exp {
-    margin: 47px -2%;
+    margin: 0 -2% 20px;
     font-size: 20px;
     line-height: 30px;
 }

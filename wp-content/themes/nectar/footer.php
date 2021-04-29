@@ -55,8 +55,9 @@
     <div class="container-fluid social_row">
         <div class="container">
         <div class="row">
-        <div class="col-12 col-sm-6 col-md-2 firstcol">
-           <span class="connect">Connect with us</span>
+        <div class="col-12 col-sm-6 col-md-4 firstcol">
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer4') ) : ?>
+    		<?php endif; ?>
         </div>
         <div class="col-12 col-sm-6 col-md-3 secondcol">
                 <span class="sociall_icons">
@@ -75,21 +76,21 @@
                 </span>
             
         </div>
-        <div class="col-12 col-md-7 btm_menu">
+        <div class="col-12 col-md-5 btm_menu">
             <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('bottom_menu') ) : ?>
 			<?php endif; ?>
         </div>
     </div>
     </div>
     </div>
-    <div class="container-fluid copyright_row">
+    <!-- <div class="container-fluid copyright_row">
         <div class="container">
             <div class="row">
-            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer4') ) : ?>
-    		<?php endif; ?>
+            <?php //if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer4') ) : ?>
+    		<?php // endif; ?>
         </div>
         </div>
-    </div>
+    </div> -->
 </footer>
 </main>
 <?php wp_footer() ?>

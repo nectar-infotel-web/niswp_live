@@ -3,18 +3,21 @@
 /* Footer section start */
 .newsletter_row p {
     font-size: 16px;
+    margin-bottom:0;
 }
 .newsletter_row h3 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 400;
+    margin-bottom: 0;
 }
 .newsletter_row {
     background: #EC5A23;
     color: #fff;
-    padding: 50px;
+    padding: 10px;
 }
 div#mc_embed_signup {
     width: 100%;
+    padding-top: 8px;
 }
 input#mce-EMAIL {
     width: 75%;
@@ -60,19 +63,21 @@ form.form-inline.newsletter_form {
     border-bottom: 1px solid #707070;
 }
 .footer_col {
-    padding: 50px;
+    padding: 30px 50px 10px;
 }
 .footer_row .col-md-3:not(:last-child) {
     border-right: 1px solid #707070;
 }
 .footer_col h4, .social_row h4 {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 14px;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 .footer_col p, .footer_col a {
     color: #A8A8A8;
     font-size: 14px;
+    text-align: inherit;
 }
 .reach-us-footer {
     margin-bottom: 50px;
@@ -84,6 +89,14 @@ form.form-inline.newsletter_form {
 .footer_row ul li a {
     padding-left: 0;
     padding-bottom: 0;
+    padding-top: 4px;
+}
+.footer_col:first-child .textwidget p {
+    line-height: 24px;
+}
+
+.footer_col p, .footer_col a {
+    font-weight: 400;
 }
 .reach-us-footer em, .reach-us-footer a, .locations p {
     line-height: 22px;
@@ -95,7 +108,7 @@ form.form-inline.newsletter_form {
     list-style-type: none;
 }
 .footer_col:first-child .textwidget {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .firstcol {
     padding-left: 0;
@@ -104,7 +117,7 @@ form.form-inline.newsletter_form {
     padding-right: 0;
 }
 .social_row {
-    padding: 34px 0px;
+    padding: 10px 0px 0px;
 }
 
 span.connect {
@@ -112,8 +125,8 @@ span.connect {
     font-weight: bold;
 }
 span.sociall_icons i {
-    font-size: 25px;
-    margin-right: 22px;
+    font-size: 21px;
+    margin-right: 24px;
     color: #EC5A23;
 }
 .mb-10 {
@@ -121,13 +134,13 @@ span.sociall_icons i {
 }
 .copyright_row {
     color: #A8A8A8;
-    font-size: 14px;
     font-weight: 300;
-    padding: 30px 43px 20px;
+    padding: 10px 43px 10px;
     background: #14161D;
 }
 .copyright_row p {
-    font-size: 15px;
+    font-size: 14px;
+    margin-bottom: 0;
 }
 .footer_col a:hover {
     color: #ec5a23;
@@ -204,7 +217,7 @@ p.testimonial-subheading {
     text-transform: uppercase;
 }
 section#testimonial {
-    padding: 50px 0;
+    padding: 27px 0;
 }
 .testimonial-author-info {
     margin-top: 35px;
@@ -231,11 +244,12 @@ section#testimonial {
 }
 #testimonial .carousel-indicators {
     left: 20%;
+    margin-bottom: 0;
 }
 #testimonial .slider_row {
     border: 1px solid #707070;
-    margin: 40px 5px;
-    padding: 40px;
+    margin: 10px 5px 22px;
+    padding: 20px;
 }
 .testimonial-text p {
     /* font-size: 16px; */
