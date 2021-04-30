@@ -699,9 +699,9 @@ span.bc_cpt_title {
     font-weight: bold;
 }
 .main_intro {
-    margin: 20px 10%;
-    font-size: 28px;
-    line-height: 36px;
+    margin: 20px 3%;
+    font-size: 25px;
+    line-height: 31px;
     color: #000000b8;
 }
 .wp-block-columns.crm_icons {
@@ -711,9 +711,9 @@ span.bc_cpt_title {
     margin-bottom: 0px !important;
 }
 h2.overview_head {
-    margin-bottom: 8px;
+    margin-bottom: 18px;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 28px;
     letter-spacing: -1.5px;
 }
 .bordercol p {
@@ -722,14 +722,23 @@ h2.overview_head {
     min-height: 200px;
 }
 
-.overview_para p{
+/* .overview_para p{
     font-size: 17px;
-}
+} */
 .faq-heading{
-    margin-bottom: 24px;
+    margin-bottom: 15px;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 28px;
     letter-spacing: -1.5px;
+}
+section#db-logosliders {
+    padding: 0;
+}
+#db-logosliders .bx-wrapper {
+    margin-bottom: 10px;
+}
+.faq-heading.tel-infra {
+    margin-bottom: 5px;
 }
 .wp-block-nectar-blocks-faq-block.card {
     background: #f6f6f6 !important;
@@ -772,13 +781,32 @@ i.customplus.fa.fa-plus.fa-minus {
     color: #e55c28;
 }
 .custom_bi_block {
-    padding: 25px;
+    padding: 18px 0 8px;
+}
+#accordion .wp-block-columns {
+    margin-bottom: 0;
+}
+#accordion .card-body {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .custom_bi_heading {
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 28px;
     letter-spacing: -1.5px;
+}
+.col-full-mob .main_intro {
+    margin: 20px 10% 10px;
+}
+.mobile_col {
+    padding-top: 20px;
+}
+.software .bx-wrapper,.iot .bx-wrapper,.ai .bx-wrapper {
+    margin-bottom: 32px;
+}
+section#software-logosliders,section#iot-logosliders,section#ai-logosliders {
+    padding: 5px 0 0;
 }
 .custom_bi_block .wp-block-button__link {
     font-size: 15px;
@@ -790,7 +818,10 @@ i.customplus.fa.fa-plus.fa-minus {
     padding: 0;
 }
 .promise_container ul li {
-    margin-bottom: 20px;
+    margin-bottom: 6px;
+}
+.m-b-10 {
+    margin-bottom: 10px;
 }
 .promise_container li:before {
     content: "";
@@ -810,12 +841,12 @@ i.customplus.fa.fa-plus.fa-minus {
 }
 .single-services #case_study {
     background: #fff;
-    padding: 28px 0;
+    padding: 0;
 }
-.single-services .case_studies .card-text {
+/* .single-services .case_studies .card-text {
     min-height: 75px;
     height: auto;
-}
+} */
 #accordion li {
     font-size: 18px;
     font-weight: 300;
@@ -1130,7 +1161,7 @@ p.logo_title {
     font-weight: 500;
 }
 .postid-334 .faq-outer {
-    margin-bottom: 100px;
+    margin-bottom: 22px;
 }
 /** vmware **/
 .vm_ware_columns {
@@ -1216,7 +1247,7 @@ h2.discoverpg_partnership {
 /*** case studies ****/
 .mainpage_Case {
     background: transparent !important;
-    padding-bottom: 60px !important;
+    padding-bottom: 20px !important;
     padding-top: 0 !important;
 }
 .mainpage_Case .card {
@@ -1224,7 +1255,7 @@ h2.discoverpg_partnership {
 }
 .isotopbuttongp{
     display: block;
-    margin-bottom: 45px;
+    margin-bottom: 10px;
 }
 .isotopbuttongp .button {
     color: #000;
@@ -1275,8 +1306,14 @@ figure.wp-block-image {
 }
 /** life at nectar **/
 p.titles {
-    line-height: 45px;
-    padding-top: 12px;
+    line-height: 44px;
+}
+p.titles.txt_inherit {
+    line-height: 38px;
+    text-align: inherit;
+}
+.main_intro.life {
+    margin: 18px 0 38px;
 }
 .fullinnerslider {
     display: block;
@@ -1298,9 +1335,6 @@ p.titles_p {
 }
 .ourculturebox{
     margin: 0;
-}
-.main_intro.life {
-    margin-top: 44px;
 }
 .life_nectar_images figure {
     margin-bottom: 20px !important;
@@ -1544,6 +1578,7 @@ i.fa.fa-quote-right {
 }
 .wp-block-column.contact_insidecol ul li{
     list-style-position: inside;
+    text-align: justify;
 }
 .prodcuts_icons_col figcaption a {
     color: #eb5a23;
