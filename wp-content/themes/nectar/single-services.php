@@ -40,9 +40,14 @@
             $case_studies = new WP_Query( $args ); 
                 
             while ( $case_studies->have_posts() ) : $case_studies->the_post(); 
+            if($case_studies->found_posts == 1) {
+                $offset='offset-md-3';
+            } else {
+                $offset='';
+            }
         ?>     
 
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 <?php echo $offset; ?>">
                 <div class="card">
                     <img class="card-img-top" src="<?php echo the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
                     <div class="card-body">

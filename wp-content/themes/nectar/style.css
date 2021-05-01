@@ -1577,7 +1577,6 @@ i.fa.fa-quote-right {
     color: #10108c;
 }
 .wp-block-column.contact_insidecol ul li{
-    list-style-position: inside;
     text-align: justify;
 }
 .prodcuts_icons_col figcaption a {
@@ -1778,7 +1777,7 @@ div#searchmodel .m-d {
     padding: 20px;
     position: absolute;
     z-index: 999;
-    left: -52%;
+    left: -13%;
     border-radius: 5px;
     margin-top: 9px;
   }
@@ -1786,7 +1785,7 @@ div#searchmodel .m-d {
   .top_icons .box.arrow-top:after {
     content: " ";
     position: absolute;
-    left: 42%;
+    left: 26%;
     top: -15px;
     border-top: none;
     border-right: 15px solid transparent;
@@ -1829,12 +1828,12 @@ div#searchmodel .m-d {
     cursor: auto;
 }
 #multilangbox:after {
-    left: 41%;
+    left: 9%;
 }
 #multilangbox {
-    min-width: unset !important;
+    min-width: 420px !important;
     width: auto;
-    left: -49%;
+    left: -13%;
 }
 #multilangbox a.glink {
     padding-right: 5px;
@@ -1859,13 +1858,13 @@ div#searchmodel .m-d {
 }
 /*info box start*/
 #totalinfo {
-    min-width: 1490px !important;
-    left: -90%;
+    min-width: 1300px !important;
+    left: -22%;
     padding: 0;
 }
 #infobox {
     background: #f1f1f1;
-    padding: 30px 60px;
+    padding: 30px 40px;
 }
 p.infotext {
     color: #000000b8;
@@ -1876,7 +1875,7 @@ p.infotext {
 }
 #totalinfo::after {
     border-bottom-color: #f1f1f1;
-    left: 15.5%;
+    left: 10.6%;
 }
 .infocol .num {
     color: #eb5a23;
@@ -1889,10 +1888,10 @@ p.infotext {
     text-align: center;
     line-height: 23px;
     padding-top: 15px;
-    font-size: 18px;
+    font-size: 17px;
 }
 .info_container {
-    margin: 35px 0;
+    margin: 16px 0 26px;
 }
 .infocol {
     background: #fff;
