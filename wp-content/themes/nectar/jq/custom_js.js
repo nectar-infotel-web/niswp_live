@@ -142,7 +142,7 @@ $('.button-group').each( function( i, buttonGroup ) {
     // Rahul code for middle alignment of only 1 casestudy start
       var $cat = $(this).attr('data-filter');
       if ($cat=='.bianalytics' || $cat=='.ai' || $cat=='.mobileapps'|| $cat=='.telecominfra'|| $cat=='.telecomoss'|| $cat=='.vmware') {
-        $('.grid '+$cat).attr('style', 'position: absolute; left: 33%; top:0');
+        $('.grid '+$cat).addClass('offset-md-4');
       }
     // Rahul code for middle alignment of only 1 casestudy start
 
