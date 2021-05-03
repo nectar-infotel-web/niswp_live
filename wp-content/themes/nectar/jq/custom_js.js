@@ -71,6 +71,8 @@ $('.bxslider2').bxSlider({
   auto: true,
   minSlides: 1,
   maxSlides: 5,
+  speed: 300, // new added
+  pause: 1000, // new added
   controls: false,
   slideWidth: 200,
   slideMargin: 10,
