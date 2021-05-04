@@ -2230,3 +2230,6 @@ span.sociall_icons {
     text-align: center;
     padding-top: 5px;
 }
+form#commentform {
+    margin-bottom: 30px;
+}

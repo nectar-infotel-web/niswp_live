@@ -293,15 +293,11 @@ li.sidebar_widget {
 .sidebar {
 }
 
-li.sidebar_widget {
-    margin-top: 50px;
-}
-
 .sidebar h3.widgetTitle {
     color: #ec5a23;
     padding-left: 10px;
     border-left: 2px solid #ec5a23;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     font-size: 26px;
 }
 .sidebar ul li:nth-child(2) ul li, .sidebar ul li:nth-child(3) ul li {
@@ -310,7 +306,7 @@ li.sidebar_widget {
     color: #ec5a23;
 }
 li.sidebar_widget {
-    margin-top: 50px;
+    margin-top: 30px;
     list-style: none;
 }
 
