@@ -1310,11 +1310,11 @@ figure.wp-block-image {
 }
 /** privacy policy **/
 .privacy_contents p {
-    margin-bottom: 42px;
+    margin-bottom: 13px;
 }
 
 .privacy_contents h3 {
-    margin: 19px 0;
+    margin: 12px 0 5px;
     color: #EC5A23;
 }
 /** life at nectar **/
@@ -1648,6 +1648,7 @@ i.fa.fa-quote-right {
 }
 .technology_title.solu {
     min-height: 186px;
+    border: 2px solid #000;
 }
 .technology_title.solu p {
     font-weight: 500;
@@ -2233,3 +2234,24 @@ span.sociall_icons {
 form#commentform {
     margin-bottom: 30px;
 }
+/* About us our expertise start */
+.abt_us_expertise .exp_col {
+    border: 1px solid #c4c4c4;
+    padding: 5px 10px;
+}
+.abt_us_expertise .exp_col p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.abt_us_expertise .exp_col:hover {
+    border: 1px solid #eb5a23;
+}
+
+.abt_us_expertise .exp_col:hover a {
+    color: #eb5a23;
+}
+.abt_us_expertise .exp_col a {
+    color: inherit;
+    text-decoration: none;
+}
+/* About us our expertise end */
