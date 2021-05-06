@@ -318,13 +318,14 @@ section#testimonial {
 }
 /* Cookie policy page */
 .cookie_contents h3 {
-    margin: 50px 0 20px;
+    margin: 20px 0 10px;
     color: #EC5A23;
 }
 .cookie_contents li {
     font-weight: 300;
     line-height: 29px;
     font-size: 18px;
+    text-align: justify;
 }
 .cookie_contents table th {
     line-height: 29px;

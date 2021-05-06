@@ -32,7 +32,7 @@ body {
     font-family: 'Roboto', sans-serif !important;
     overflow-x: hidden; 
 }
-p{
+p,.overview_para ul li{
     font-weight: 300;
     line-height: 29px;
     font-size: 18px;
@@ -699,7 +699,7 @@ span.bc_cpt_title {
     font-weight: bold;
 }
 .main_intro {
-    margin: 20px 3%;
+    margin: 25px 3%;
     font-size: 25px;
     line-height: 31px;
     color: #000000b8;
@@ -1145,7 +1145,7 @@ p.logo_title {
 }
 .twocolumns p {
     min-height: 216px;
-    font-weight: 400;
+    text-align: justify;
 }
 .logoinnerslider {
     padding: 50px 0;
@@ -1165,6 +1165,7 @@ p.logo_title {
 /* crm page */
 .crm_icons p {
     margin: 0 24%;
+    line-height: 24px;
 }
 /* telecom infra */
 .cme-white-text {
@@ -1293,16 +1294,16 @@ h2.discoverpg_partnership {
     /* margin-bottom: 71px; */
 }
 
-.prodcuts_icons_col img {
+/* .prodcuts_icons_col img {
     width: 39%;
-}
+} */
 
 .prodcuts_icons_col figcaption {
     text-align: center;
     color: #e55c28;
     font-weight: bold;
     font-size: 15px;
-    margin: 24px 13px;
+    margin: 10px 0;
 }
 
 figure.wp-block-image {
@@ -1594,6 +1595,7 @@ i.fa.fa-quote-right {
 }
 .prodcuts_icons_col figcaption a {
     color: #eb5a23;
+    font-size: 18px;
 }
 .search_header {
     background: url(images/search-Banners.jpg) no-repeat;
