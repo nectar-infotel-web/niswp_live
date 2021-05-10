@@ -1255,8 +1255,18 @@ h2.discoverpg_partnership {
     margin-bottom: 0;
 }
 .industries_block .wp-block-image {
-    margin-bottom: 10px !important;
+    /* margin-bottom: 10px !important; */
     display: block;
+}
+.abt_us_ind_col p {
+    color: #EC5A23;
+    position: relative;
+    top: 7px;
+    font-weight: 400;
+}
+.abt_us_ind_col {
+    border: 1px solid #c4c4c4;
+    padding: 0px 10px;
 }
 /*** case studies ****/
 .mainpage_Case {
@@ -2244,14 +2254,16 @@ form#commentform {
 .abt_us_expertise .exp_col p {
     margin-bottom: 0;
     font-size: 14px;
+    color: #eb5a23;
+    font-weight: 400;
 }
 .abt_us_expertise .exp_col:hover {
     border: 1px solid #eb5a23;
 }
 
-.abt_us_expertise .exp_col:hover a {
+/* .abt_us_expertise .exp_col:hover a {
     color: #eb5a23;
-}
+} */
 .abt_us_expertise .exp_col a {
     color: inherit;
     text-decoration: none;
