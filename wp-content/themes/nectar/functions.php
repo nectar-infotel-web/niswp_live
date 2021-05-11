@@ -230,10 +230,15 @@ if ( function_exists('register_sidebar') )
         'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
         'show_in_rest' => true,
         'has_archive' => true
-       
-
       );
       register_post_type( 'jobs', $args_jobs );
+
+      $args_jobs_cat = array(
+        'label'        => __( 'Categories', 'textdomain' ),
+        'show_in_rest' => true,
+        'hierarchical' => true
+    );
+    register_taxonomy( 'jobs_category', 'jobs', $args_jobs_cat );
 	  
 	$args_certificates = array(
         'public' => true,
@@ -241,8 +246,6 @@ if ( function_exists('register_sidebar') )
         'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
         'show_in_rest' => true,
         'has_archive' => true
-       
-
       );
       register_post_type( 'certificates', $args_certificates );
 
