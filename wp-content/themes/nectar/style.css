@@ -2340,3 +2340,11 @@ form#commentform {
     margin-bottom: 20px;
 }
 /*career pg new end*/
+.all_opng h5 {
+    position: relative;
+    left: -15px;
+}
+.this_opng h5 {
+    position: relative;
+    left: -7px;
+}

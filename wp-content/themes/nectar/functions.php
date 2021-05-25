@@ -616,9 +616,11 @@ function crunchify_social_sharing_buttons($id) {
     
         // Get current page URL 
         $crunchifyURL = urlencode(get_permalink($id));
+        $crunchifyURL_alljobs = urlencode(get_option('home').'/careers');
  
         // Get current page title
         $crunchifyTitle = htmlspecialchars(urlencode(html_entity_decode(get_the_title($id), ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8');
+        $crunchifyTitle_alljobs = htmlspecialchars(urlencode(html_entity_decode('Nectar Infotel Careers', ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8');
         // $crunchifyTitle = str_replace( ' ', '%20', get_the_title());
         
         // Get Post Thumbnail for pinterest
@@ -630,20 +632,36 @@ function crunchify_social_sharing_buttons($id) {
         $googleURL = 'https://plus.google.com/share?url='.$crunchifyURL;
         $bufferURL = 'https://bufferapp.com/add?url='.$crunchifyURL.'&amp;text='.$crunchifyTitle;
         $linkedInURL = 'https://www.linkedin.com/shareArticle?mini=true&url='.$crunchifyURL.'&amp;title='.$crunchifyTitle;
+        $whatsappURL = 'whatsapp://send?text='.$crunchifyURL;
+
+        $twitterURL_alljobs = 'https://twitter.com/intent/tweet?text='.$crunchifyTitle_alljobs.'&amp;url='.$crunchifyURL_alljobs.'&amp;via=Crunchify';
+        $facebookURL_alljobs = 'https://www.facebook.com/sharer/sharer.php?u='.$crunchifyURL_alljobs;
+        $googleURL_alljobs = 'https://plus.google.com/share?url='.$crunchifyURL_alljobs;
+        $bufferURL_alljobs = 'https://bufferapp.com/add?url='.$crunchifyURL_alljobs.'&amp;text='.$crunchifyTitle_alljobs;
+        $linkedInURL_alljobs = 'https://www.linkedin.com/shareArticle?mini=true&url='.$crunchifyURL_alljobs.'&amp;title='.$crunchifyTitle_alljobs;
+        $whatsappURL_alljobs = 'whatsapp://send?text='.$crunchifyURL_alljobs;
  
         // Based on popular demand added Pinterest too
         $pinterestURL = 'https://pinterest.com/pin/create/button/?url='.$crunchifyURL.'&amp;media='.$crunchifyThumbnail[0].'&amp;description='.$crunchifyTitle;
  
         // Add sharing button at the end of page/page content
-        $content .= '<span class="crunchify-social sociall_icons">';
-        $content .= '<h5>Share </h5>';
+        $content .= '<div class="row"><div class="col-12 col-md-6 this_opng"><span class="crunchify-social sociall_icons">';
+        $content .= '<h5>Share this opening only:</h5>';
         $content .= '<a class="crunchify-link crunchify-facebook" href="'.$facebookURL.'" target="_blank"><i class="fa fa-facebook"></i></a>';
         $content .= ' <a class="crunchify-link crunchify-twitter" href="'. $twitterURL .'" target="_blank"><i class="fa fa-twitter"></i></a>';
         $content .= '<a class="crunchify-link crunchify-googleplus" href="'.$googleURL.'" target="_blank"><i class="fa fa-google-plus"></i></a>';
        // $content .= '<a class="crunchify-link crunchify-buffer" href="'.$bufferURL.'" target="_blank">Buffer</a>';
         $content .= '<a class="crunchify-link crunchify-linkedin" href="'.$linkedInURL.'" target="_blank"><i class="fa fa-linkedin"></i></a>';
-        $content .= '<a class="crunchify-link crunchify-pinterest" href="'.$pinterestURL.'" data-pin-custom="true" target="_blank"><i class="fa fa-pinterest"></i></a>';
-        $content .= '</span>';
+        $content .= '<a class="crunchify-link crunchify-whatsapp" href="'.$whatsappURL.'" target="_blank"><i class="fa fa-whatsapp"></i></a>';
+        //$content .= '<a class="crunchify-link crunchify-pinterest" href="'.$pinterestURL.'" data-pin-custom="true" target="_blank"><i class="fa fa-pinterest"></i></a>';
+        $content .= '</span></div><div class="col-12 col-md-6 all_opng"><span class="crunchify-social sociall_icons">';
+        $content .= '<h5>Share all openings:</h5>';
+        $content .= '<a class="crunchify-link crunchify-facebook" href="'.$facebookURL_alljobs.'" target="_blank"><i class="fa fa-facebook"></i></a>';
+        $content .= ' <a class="crunchify-link crunchify-twitter" href="'. $twitterURL_alljobs .'" target="_blank"><i class="fa fa-twitter"></i></a>';
+        $content .= '<a class="crunchify-link crunchify-googleplus" href="'.$googleURL_alljobs.'" target="_blank"><i class="fa fa-google-plus"></i></a>';
+        $content .= '<a class="crunchify-link crunchify-linkedin" href="'.$linkedInURL_alljobs.'" target="_blank"><i class="fa fa-linkedin"></i></a>';
+        $content .= '<a class="crunchify-link crunchify-whatsapp" href="'.$whatsappURL_alljobs.'" target="_blank"><i class="fa fa-whatsapp"></i></a>';
+        $content .= '</span></div></div>';
         
         return $content;
     }else{
